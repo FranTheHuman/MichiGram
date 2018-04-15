@@ -1,0 +1,21 @@
+module.exports = {
+    'likes': '{ likes, number } mi piace',
+    'logout': 'Esci',
+    'english': 'Inglese',
+    'spanish': 'Spagnolo',
+    'italian': 'Italiano',
+    'signup.subheading': 'Crea un nuovo account per vedere foto di gatti dei tuoi amici',
+    'signup.facebook': 'Accedi con Facebook',
+    'signup.text': 'Accedi',
+    'email': 'email',
+    'username': 'User',
+    'fullname': 'Nome',
+    'password': 'Parola chiave',
+    'signup.call-to-action': 'Registrare',
+    'signup.have-account': 'Avere un account?',
+    'signin': 'Accedi',
+    'signin.not-have-account': 'Non hai un account?',
+    'language': 'Lingua',
+    'upload-picture' : ' Pubblica foto',
+    'upload' : 'Upload'
+}

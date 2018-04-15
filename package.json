@@ -1,0 +1,46 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos de michis",
+  "main": "server.js",
+  "keywords": [
+    "Platzi",
+    "JavaScript",
+    "Curso"
+  ],
+  "author": "Lautaro Perrotta <Lautaro_p14@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "empty-element": "^1.0.0",
+    "express": "^4.16.3",
+    "file-extension": "^4.0.2",
+    "gulp-rename": "^1.2.2",
+    "intl-messageformat": "^2.2.0",
+    "intl-relativeformat": "^2.1.0",
+    "materialize-css": "^0.100.2",
+    "multer": "^1.3.0",
+    "page": "^1.8.4",
+    "pug": "^2.0.1",
+    "superagent": "^3.8.2",
+    "webcamjs": "^1.0.25",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "concurrently \"gulp watch\" \"node server\" "
+  }
+}
